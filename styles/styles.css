@@ -134,6 +134,52 @@
 
 
 /* ========================== */
+/* Grid box */
+/* ========================== */
+
+.grid_section{
+    justify-items: center;
+    background-color: #230E3D;
+}
+
+.grid_section h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 7.5rem 2.5rem;
+}
+
+.grid_box{
+    max-width: 1200px;
+    display: grid;
+    gap: 1.875rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid_section .grid_box .card{
+    width: 100%;
+    background-color: rgba(53, 17, 101, 0.4);
+    color: white;
+    border-radius: 2.5rem;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 16px 0 16px;
+}
+
+.card p{
+    color:#a9aaab;
+    line-height: 1.5rem;
+    
+}
+
+
+
+
+/* ========================== */
 /* responsiveness */
 /* ========================== */
 
