@@ -108,6 +108,28 @@
 }
 
 
+/* ========================= */
+/* about section */
+/* ========================= */
+
+.about_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.about_section .about_text p, .about_info p{
+    line-height: 1.25rem;
+    color: #a9aaab;
+    margin-bottom: 80px;
+}
+
+.about_info h1{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 900;
+}
 
 
 
