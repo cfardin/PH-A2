@@ -164,6 +164,15 @@
     border-radius: 2.5rem;
 }
 
+.card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;      
+    margin: 0 auto;
+}
+
 .card h3{
     font-size: 1.5rem;
     font-weight: bold;
@@ -176,6 +185,36 @@
     
 }
 
+.grid_box{
+    color: white;
+}
+
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+
+.grid_box{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+        "card1 card2 card2"
+        "card1 card3 card3"
+        "card4 card4 card5"
+
+    ;
+}
 
 
 
