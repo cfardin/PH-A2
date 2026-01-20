@@ -45,6 +45,10 @@
     border-bottom: 2px solid #230E3D;
 }
 
+.ham{
+    display: none;
+}
+
 /* hero banner */
 
 #hero_banner{
@@ -61,7 +65,7 @@
     background-image: url('../assets/hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 #hero_img{
@@ -86,7 +90,7 @@
 #circle_img{
     width: 100%;
     max-width: 350px;
-    height: auto;
+    max-height: 350px;
     display: block;
     margin: 0 auto;
 }
@@ -140,13 +144,15 @@
 .grid_section{
     justify-items: center;
     background-color: #230E3D;
+    padding-bottom: 7.5rem;
 }
 
 .grid_section h1{
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    padding: 7.5rem 2.5rem;
+    padding-top: 7.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .grid_box{
@@ -212,9 +218,52 @@
         "card1 card2 card2"
         "card1 card3 card3"
         "card4 card4 card5"
-
     ;
 }
+
+
+
+/* ========================== */
+/* feature section */
+/* ========================== */
+
+.feature_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7.5rem;
+}
+
+.feature_card {
+    gap: 30px;
+    color: white;
+    max-width: 1200px;
+}
+
+.feature_card .ep{
+    border-radius: 30px;
+    background-color: #250D44;
+}
+
+.feature_card .ep h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 24px 24px 0;
+}
+
+.feature_card .ep p{
+    line-height: 1.5rem;
+    color: #a9aaab;
+    padding: 12px 24px 12px;
+
+}
+
+.ep iframe{
+    width: 100%;
+    height: 210px;
+    border-radius: 1rem;
+}
+
 
 
 
