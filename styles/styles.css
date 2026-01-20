@@ -41,7 +41,7 @@
 }
 
 .bounce_effect:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 .gradient{
     background: linear-gradient(31deg, #F7E93F, #FB09B4, #9100F8);
